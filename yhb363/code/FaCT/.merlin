@@ -1,0 +1,18 @@
+S src/llvm/
+S src/
+S test/
+B _build/src/
+B _build/test/
+PKG llvm
+PKG Llvm_executionengine
+PKG ounit
+PKG core
+PKG ppx_deriving.std
+PKG ocamlgraph
+PKG lwt
+PKG ANSITerminal
+PKG dolog
+PKG lwt.unix
+PKG z3
+
+EXT lwt

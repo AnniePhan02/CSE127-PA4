@@ -1,0 +1,23 @@
+nc smtp.cse.127 25
+220 foreshadow.cse.127 ESMTP Postfix (Ubuntu)
+HELO smtp.cse.127
+250 foreshadow.cse.127
+MAIL FROM: baicheng@cse.127
+250 2.1.0 Ok
+RCPT TO: allison@cse.127
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+From: Baicheng <baicheng@cse.127>
+To: Allison <allison@cse.127> 
+Reply-To:<yhb363@c09-35.sysnet.ucsd.edu>
+Date: '+%a, %d %b %Y %H:%M:%S %z'
+Subject: Password Token Reset 
+Send the token
+
+.
+250 2.0.0 Ok: queued as 12AF21C0A22
+quit
+221 2.0.0 Bye
+
+You have new mail in /var/mail/yhb363
